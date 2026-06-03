@@ -1,66 +1,194 @@
-```markdown
-# Madhav Ecommerce Sales Dashboard
+# Madhav Ecommerce Sales Dashboard | Power BI
 
-A Power BI dashboard analyzing ecommerce sales performance, profit trends,
-and customer behavior for Madhav Store across India.
+## Project Overview
+
+This Power BI dashboard provides a comprehensive analysis of an e-commerce business's sales performance, profitability, customer behavior, and product trends. The dashboard transforms raw order and transaction data into actionable insights through interactive visualizations and KPI tracking.
+
+The project focuses on helping stakeholders monitor revenue, profit, sales quantity, customer contributions, payment preferences, and product category performance.
 
 ---
 
 ## Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard Screenshot](images/dashboard.png)
 
 ---
 
-## Project Overview
+## Business Objectives
 
-This dashboard provides a complete overview of Madhav Store's ecommerce
-operations, tracking sales amounts, profit margins, order quantities, and
-payment preferences across different states, categories, and customers.
+* Track overall sales and profitability.
+* Analyze sales performance across different states.
+* Identify top-performing product categories and sub-categories.
+* Understand customer purchasing patterns.
+* Monitor monthly profit trends.
+* Evaluate customer payment preferences.
 
 ---
 
-## Key Metrics
+## Dataset Information
 
-| Metric | Value |
-|---|---|
-| Total Sales Amount | 438K |
-| Total Profit | 37K |
-| Total Quantity Sold | 5,615 |
-| Sum of AOV | 121K |
+The dashboard was built using two datasets:
+
+### Orders Dataset
+
+Contains customer and order-related information:
+
+* Order ID
+* Order Date
+* Customer Name
+* State
+* City
+
+### Details Dataset
+
+Contains transaction-level information:
+
+* Order ID
+* Amount
+* Profit
+* Quantity
+* Category
+* Sub-Category
+* Payment Mode
+
+The datasets are connected through the **Order ID** field.
+
+---
+
+## Data Preparation
+
+Data preprocessing was performed using **Power Query**, including:
+
+* Data type validation and formatting
+* Dataset integration using Order ID
+* Data cleaning and consistency checks
+* Preparation of fields for reporting and visualization
+
+---
+
+## Key Performance Indicators (KPIs)
+
+The dashboard highlights the following business metrics:
+
+| KPI                       | Value |
+| ------------------------- | ----- |
+| Total Sales Amount        | 438K  |
+| Total Profit              | 37K   |
+| Total Quantity Sold       | 5615  |
+| Average Order Value (AOV) | 121K  |
+
+---
+
+## Dashboard Features
+
+### Sales Performance Analysis
+
+* Total revenue tracking
+* State-wise sales comparison
+* Customer contribution analysis
+
+### Profitability Analysis
+
+* Monthly profit trends
+* Profit by product sub-category
+* Identification of profitable and loss-making periods
+
+### Product Analysis
+
+* Quantity sold by category
+* Profit by sub-category
+* Category performance comparison
+
+### Customer Analysis
+
+* Top customers by sales amount
+* Customer contribution breakdown
+
+### Payment Analysis
+
+* Distribution of payment methods
+* COD, UPI, Credit Card, Debit Card, and EMI comparison
+
+### Interactive Filters
+
+Users can dynamically filter the report by:
+
+* Quarter (Q1–Q4)
+* State
 
 ---
 
 ## Key Insights
 
-- **Top State:** Maharashtra leads in sales amount followed by Madhya Pradesh
-- **Top Category:** Clothing dominates quantity sold with 3,516 units, followed by Electronics at 1,154
-- **Payment Mode:** COD is the most preferred payment method with 2,456 transactions, followed by UPI at 1,157
-- **Most Profitable Sub-Category:** Printers top the profit chart followed by Bookcases and Sarees
-- **Profit Trend:** Profitable months are January through July, with losses recorded in August, October and December
-- **Top Customer:** Harivansh generates the highest sales amount among all customers
+* Clothing contributed the highest quantity of products sold.
+* Maharashtra generated the highest sales revenue among all states.
+* COD emerged as the most frequently used payment method.
+* Printers and Bookcases were among the most profitable sub-categories.
+* Profitability varied significantly across months, highlighting seasonal business trends.
 
 ---
 
-## Files Included
+## Tools & Technologies
 
-| File | Description |
-|---|---|
-| `madhav_store.pbix` | Power BI dashboard file |
-| `*.xlsx` | Raw ecommerce data source |
-
----
-
-## Tools Used
-
-- **Power BI Desktop** — Dashboard design & DAX measures
-- **Microsoft Excel** — Data source
+* Power BI Desktop
+* Power Query
+* DAX
+* Microsoft Excel
 
 ---
 
-## Data Source
+## Repository Structure
 
-The dataset includes ecommerce transaction records covering sales amount,
-profit, quantity, payment modes, customer names, product categories,
-and state-wise distribution across all four quarters.
+```text
+Madhav-Ecommerce-Sales-Dashboard/
+│
+├── Dashboard.pbix
+├── Orders.csv
+├── Details.csv
+├── images/
+│   ├── dashboard.png
+│   ├── orders_dataset.png
+│   └── details_dataset.png
+└── README.md
 ```
+
+---
+
+## Dataset Screenshots
+
+### Orders Dataset
+
+![Orders Dataset](images/orders_dataset.png)
+
+### Details Dataset
+
+![Details Dataset](images/details_dataset.png)
+
+---
+
+## Skills Demonstrated
+
+* Data Cleaning & Transformation
+* Data Modeling
+* Dashboard Design
+* Business Intelligence Reporting
+* DAX Calculations
+* KPI Development
+* Interactive Visualization
+* Sales & Profit Analysis
+* Customer Analytics
+* E-commerce Analytics
+
+---
+
+## Author
+
+**Hamid Nawaz**
+
+Computer Science Student | Data Analytics Enthusiast | Power BI Developer
+
+## Connect With Me
+
+- LinkedIn:in/hamid-nawaz-
+- Fiverr: [https://www.fiverr.com/your-username](https://www.fiverr.com/s/e6D4d4E)
+- Email: hamidsherani2172@gmail.com
