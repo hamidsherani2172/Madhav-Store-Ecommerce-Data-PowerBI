@@ -189,6 +189,6 @@ Computer Science Student | Data Analytics Enthusiast | Power BI Developer
 
 ## Connect With Me
 
-- LinkedIn:hamid-nawaz-
+- LinkedIn: hamid-nawaz-
 - Fiverr: [https://www.fiverr.com/your-username](https://www.fiverr.com/s/e6D4d4E)
 - Email: hamidsherani2172@gmail.com
