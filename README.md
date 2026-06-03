@@ -10,7 +10,7 @@ The project focuses on helping stakeholders monitor revenue, profit, sales quant
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard.png)
+![Dashboard Screenshot](dashboard.png)
 
 ---
 
@@ -52,6 +52,14 @@ Contains transaction-level information:
 * Payment Mode
 
 The datasets are connected through the **Order ID** field.
+
+## Dataset Preview
+
+![Dataset Screenshot](dataset.png)
+
+![Dataset2 Screenshot](dataset2.png)
+
+
 
 ---
 
